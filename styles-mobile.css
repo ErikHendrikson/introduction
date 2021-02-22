@@ -224,13 +224,6 @@ h3 {
     outline: 0;
 }
 
-.project-button:hover{
-    transform: scale(1.1);
-    background-color: rgb(223, 182, 3);
-    color: white;
-    cursor: pointer;
-}
-
 #erik {
     display: flex;
     order: 1;
