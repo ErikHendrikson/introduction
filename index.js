@@ -45,10 +45,10 @@ projectfunction();
 });
 
 function scrollmouse (){
-    if (window.pageYOffset > 170){
+    if (window.pageYOffset > document.getElementById("about-me").getBoundingClientRect().top){
  mouse.classList.remove("mouse-shown");   
  mouse.classList.add("mouse-hide");    
-} else if (window.pageYOffset < 170){
+} else if (window.pageYOffset < document.getElementById("about-me").getBoundingClientRect().top){
     mouse.classList.remove("mouse-hide");
     mouse.classList.add("mouse-shown"); 
 }};
