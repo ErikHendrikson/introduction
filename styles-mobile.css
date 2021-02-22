@@ -136,11 +136,6 @@ body {
     transition: 0.5s ease-out; 
 }
 
-.ham-div:hover {
-    border-color: rgb(223, 182, 3);
-    cursor: pointer;
-}
-
 .ham-div:hover > #btn {
     transform: scale(0.6);
     transition: 0.3s ease;
