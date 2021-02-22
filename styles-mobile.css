@@ -108,7 +108,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 00px;
+    padding-bottom: 300px;
     background: linear-gradient(-180deg,  rgb(173, 35, 120),rgb(67, 46, 255));
 }
 
